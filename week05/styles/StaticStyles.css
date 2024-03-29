@@ -1,0 +1,300 @@
+
+
+.static-container {
+    display: flex;
+    background-color:#333;
+    color: #f7e9bd;
+    max-width:100%;
+    /* margin: 20px auto; */
+    text-align: center;
+    justify-content: center;
+}
+
+.static-container h1 {
+    color:#333;
+    background-color: #f7e9bd;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+.static-container p {
+    display: inline-block, s;
+    margin: 0;
+    padding: 0;
+}
+
+.static-info{
+    max-width: 90%;
+    justify-Content: center;
+    align-Items: center;
+}
+
+.static-info h1 {
+    color:#333;
+    background-color: #f7e9bd;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    font-weight: bold;
+    margin-top: 3%;
+  }
+
+.static-details{
+    max-width: 80%;
+    /* justify-Content: 'left'; */
+    align-Items: left;
+    text-align: left;
+    margin-left: 10% ;
+    margin-right: 10%;
+    font-size: 125%;
+    font-weight:normal;
+}
+
+.static-details h2 {
+    text-align: center;
+}
+  
+.static-details p {
+    padding: 10px;
+    border: 3px solid #f7e9bd; /* Add a border around each team member */
+    border-radius: 10px; /* Add border radius for rounded corners */
+}
+
+.static-thumbnail {
+  display: flex !important;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.thumbnail-section {
+  display: flex; /* Set display to flex */
+  justify-content: center; /* Center align the items horizontally */
+  align-items: center; /* Center align the items vertically */
+}
+
+.thumbnail-container {
+  display: inline-block; /* Set to inline-block to avoid display: block */
+  justify-content: space-around;
+  width: 80%; /* Take full width */
+  max-width: 100%;
+  max-height: 100px;
+  object-fit: cover;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.thumbnail {
+  width: auto;
+  height: 125px; /* Adjusted to maintain aspect ratio */
+  cursor: pointer;
+  object-fit: cover;
+  border: 2px solid #f7e9bd;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.team-thumbnail {
+  /* Add styles for each team member */
+  border: 1px solid #ccc; /* Add a border around each team member */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  /* overflow: hidden; Hide overflow content */
+  background-color: #f7e9bd;
+  transition: transform 0.3s ease-in-out;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.team-thumbnail:hover {
+  transform: scale(1.05);
+}
+
+.team-thumbnail img {
+  /* Add styles for team member images */
+  width: 150px; /* Adjust the width of the thumbnail images as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Optional: Add border radius for rounded corners */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.enlarged-thumbnail {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+}
+
+/* EnlargedImageModal.css */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.enlarged-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Adjust as needed, 'contain' maintains aspect ratio */
+}
+
+.thumbnail.enlarged {
+  max-width: 125%;
+  max-height: 125%;
+  cursor: pointer;
+  margin-top: 10px; /* Adjust the margin-top as needed */
+  border: 3px solid #f7e9bd;
+  border-radius: 10px;
+}
+
+.static-indented-text{
+    padding-left: 20px;
+}
+
+.static-centered-text{
+    text-align: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+
+.static-link {
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
+}
+
+.static-button {
+    padding: 5px;
+    background-color: #f7e9bd; /* Blue background */
+    color: #333; /* Yellow text */
+    border-radius: 10px; 
+    padding: 10px 15px; /* Adjust padding as needed */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Add transition for a smooth effect */
+    font-weight: bold;
+}
+
+.static-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    color: #ffcc00; /* Lighter yellow on hover */
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.about-us-container {
+    /* Add styles for the overall container */
+    background-color: #333;
+    padding: 20px;
+  }
+  
+  .building-section {
+    /* Add styles for the building section */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .building-image {
+    /* Add styles for the building image */
+    width: 31%; /* Adjust width as needed */
+    height: auto;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px; /* Add border radius for rounded corners */
+   
+  }
+  
+  .building-image:hover {
+    transform: scale(1.05);
+  }
+  
+  .building-info {
+    /* Add styles for the building information */
+    /* Adjust padding as needed */
+    flex: 1;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f7e9bd;
+
+    margin: 20px;
+    font-size: medium;
+    font-weight: bold;
+    border: 1px solid #ccc; /* Add a border around each team member */
+    border-radius: 10px; /* Add border radius for rounded corners */
+  }
+  
+  .team-members-container {
+    /* Add styles for the team members container */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust column width as needed */
+    gap: 20px; /* Adjust the gap between team members */
+  }
+  
+  .team-member {
+    /* Add styles for each team member */
+    border: 1px solid #ccc; /* Add a border around each team member */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    overflow: hidden; /* Hide overflow content */
+    background-color: #f7e9bd;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .team-member:hover {
+    transform: scale(1.05);
+  }
+  
+  .team-member img {
+    /* Add styles for team member images */
+    width: 100%; /* Make the image fill the container */
+    height: 150px; /* Adjust the height of the image */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+  }
+  
+  .team-member-info {
+    /* Add styles for team member information */
+    padding: 10px; /* Add padding for the member info */
+    text-align: center;
+  }
+  
+  .team-member-info h2 {
+    /* Add styles for team member names */
+    margin: 0; /* Remove default margin for the member name */
+    font-size: xx-large; /* Adjust font size for the member name */
+    color: #333; /* Change font color */
+    font-weight: bold;
+  }
+  
+  .team-member-info p {
+    /* Add styles for other information */
+    margin: 5px 0; /* Add margin to separate paragraphs */
+    font-size: medium; /* Adjust font size for other info */
+    color: #333; /* Change font color */
+    font-weight: bold;
+  }
+
+

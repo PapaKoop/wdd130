@@ -1,0 +1,91 @@
+.about-us-container {
+    /* Add styles for the overall container */
+    background-color: #333;
+    padding: 20px;
+  }
+  
+  .building-section {
+    /* Add styles for the building section */
+    display: flex;
+    align-items: center;
+  }
+  
+  .building-image {
+    /* Add styles for the building image */
+    width: 31%; /* Adjust width as needed */
+    height: auto;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px; /* Add border radius for rounded corners */
+   
+  }
+  
+  .building-image:hover {
+    transform: scale(1.05);
+  }
+  
+  .building-info {
+    /* Add styles for the building information */
+    /* Adjust padding as needed */
+    flex: 1;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f7e9bd;
+
+    margin: 20px;
+    font-size: medium;
+    font-weight: bold;
+    border: 1px solid #ccc; /* Add a border around each team member */
+    border-radius: 10px; /* Add border radius for rounded corners */
+  }
+  
+  .team-members-container {
+    /* Add styles for the team members container */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust column width as needed */
+    gap: 20px; /* Adjust the gap between team members */
+  }
+  
+  .team-member {
+    /* Add styles for each team member */
+    border: 1px solid #ccc; /* Add a border around each team member */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    overflow: hidden; /* Hide overflow content */
+    background-color: #f7e9bd;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .team-member:hover {
+    transform: scale(1.05);
+  }
+  
+  .team-member img {
+    /* Add styles for team member images */
+    width: 100%; /* Make the image fill the container */
+    height: 150px; /* Adjust the height of the image */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+  }
+  
+  .team-member-info {
+    /* Add styles for team member information */
+    padding: 10px; /* Add padding for the member info */
+    text-align: center;
+  }
+  
+  .team-member-info h2 {
+    /* Add styles for team member names */
+    margin: 0; /* Remove default margin for the member name */
+    font-size: xx-large; /* Adjust font size for the member name */
+    color: #333; /* Change font color */
+    font-weight: bold;
+  }
+  
+  .team-member-info p {
+    /* Add styles for other information */
+    margin: 5px 0; /* Add margin to separate paragraphs */
+    font-size: medium; /* Adjust font size for other info */
+    color: #333; /* Change font color */
+    font-weight: bold;
+  }
+  
